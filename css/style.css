@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+/* imagens */
+.img-wallpaper {
+  width: 100%;
+  height: 480px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: #000;
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  height: auto;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* header */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.header .main-title {
+  font-size: 2.5rem;
+  color: #000;
+}
+
+.header .main-paragraph {
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+/* Imagem inicial */
+.featured-image {
+  max-width: auto;
+  height: 550px;
+  padding: 10px;
+}
+
+.featured-image figcaption {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/* conteudo principal - biografia */
+.biography-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 220px;
+  padding: 10px;
+}
+
+.biography-container h2 {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.biography-container p {
+  font-size: 1.1rem;
+  text-align: left;
+  font-style: normal;
+}
+
+.section-container {
+  padding: 10px;
+}
+
+.section-container .quotes-container blockquote, p {
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.section-container .quotes-container p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* artigo curiosidades */
+.curiosities-container {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  height: 180px;
+  background-color: lightgray;
+}
+
+.curiosities-container h2 {
+  font-size: 1.8rem;
+  padding: 10px;
+}
+
+.curiosities-container ul {
+  list-style: decimal;
+}
+
+.curiosities-container ul li {
+  font-size: 1rem;
+}
+
+/* container da segunda imagem */
+.img-bold {
+  max-width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 550px;
+  padding: 10px;
+}
+
+.img-bold figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+/* footer */
+.moreinfo-container {
+  width: auto;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.219);
+}
+
+.moreinfo-container h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.moreinfo-container p, a {
+  text-align: left;
+}
+
+.moreinfo-container a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.moreinfo-container a:hover {
+  color: #fa1b1b;
+  text-decoration: underline;
+}
